@@ -1,3 +1,0 @@
-cl_chill_main_homepage:
-    pattern:  /hello/{name}
-    defaults: { _controller: CLChillMainBundle:Default:index }
