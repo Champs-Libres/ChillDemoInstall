@@ -1,0 +1,3 @@
+[submodule "src/CL/Chill/MainBundle"]
+	path = src/CL/Chill/MainBundle
+	url = git@github.com:Champs-Libres/ChillMain.git
