@@ -6,3 +6,5 @@
 /app/config/parameters.yml
 /src/
 composer.phar
+!/src/CL/Chill/MainBundle/
+
