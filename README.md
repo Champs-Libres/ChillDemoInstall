@@ -14,3 +14,9 @@ For development
 5. Install assets: ´´´php app/console assets:install --symlink´´´
 6. Test: http://<path_to_your_installation>/web/app_dev.php/hello
 
+If you want to develop style:
+
+7. Install Ruby 
+8. Install SASS and compass dependancies: ´´´sudo gem install sass compass modular-scale´´´
+
+SCSS are in the MainBundle, a ´config.rb´ file is ready for the configuration of compilation into Resource/public/css. Compile manually to see your changes.
