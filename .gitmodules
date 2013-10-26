@@ -1,3 +1,6 @@
 [submodule "src/CL/Chill/MainBundle"]
 	path = src/CL/Chill/MainBundle
 	url = git@github.com:Champs-Libres/ChillMain.git
+[submodule "src/CL/Chill/PersonBundle"]
+	path = src/CL/Chill/PersonBundle
+	url = git@github.com:Champs-Libres/ChillPersonBundle.git
