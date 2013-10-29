@@ -25,6 +25,9 @@ framework:
 twig:
     debug:            %kernel.debug%
     strict_variables: %kernel.debug%
+    globals:
+        installation:
+            name: %installation.name%
 
 # Assetic Configuration
 assetic:
