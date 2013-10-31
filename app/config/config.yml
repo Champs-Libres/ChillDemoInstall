@@ -28,6 +28,10 @@ twig:
     globals:
         installation:
             name: %installation.name%
+        date_format: 'd-m-Y'
+        #TODO: this should be injected by the main composer !
+        #menu_composer: "@menu_composer"
+            
 
 # Assetic Configuration
 assetic:
