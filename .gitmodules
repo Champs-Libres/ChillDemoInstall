@@ -4,3 +4,6 @@
 [submodule "src/CL/Chill/PersonBundle"]
 	path = src/CL/Chill/PersonBundle
 	url = git@github.com:Champs-Libres/ChillPersonBundle.git
+[submodule "src/CL/BelgianNationalNumberBundle"]
+	path = src/CL/BelgianNationalNumberBundle
+	url = git@github.com:julienfastre/BelgianNationalNumberBundle.git

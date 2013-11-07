@@ -18,6 +18,7 @@ class AppKernel extends Kernel
             new Sensio\Bundle\FrameworkExtraBundle\SensioFrameworkExtraBundle(),
             new CL\Chill\MainBundle\CLChillMainBundle(),
             new CL\Chill\PersonBundle\CLChillPersonBundle(),
+            new CL\BelgianNationalNumberBundle\CLBelgianNationalNumberBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {
