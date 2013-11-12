@@ -25,6 +25,9 @@ framework:
 twig:
     debug:            %kernel.debug%
     strict_variables: %kernel.debug%
+    form:
+        resources:
+            - 'CLBelgianNationalNumberBundle:Form:fields.html.twig'
     globals:
         installation:
             name: %installation.name%
