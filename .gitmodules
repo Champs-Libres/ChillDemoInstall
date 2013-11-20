@@ -7,3 +7,6 @@
 [submodule "src/CL/BelgianNationalNumberBundle"]
 	path = src/CL/BelgianNationalNumberBundle
 	url = git@github.com:julienfastre/BelgianNationalNumberBundle.git
+[submodule "src/CL/Chill/AppointmentBundle"]
+	path = src/CL/Chill/AppointmentBundle
+	url = git@github.com:Champs-Libres/ChillAppointmentBundle.git

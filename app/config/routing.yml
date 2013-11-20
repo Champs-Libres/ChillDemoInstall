@@ -2,7 +2,10 @@ cl_chill_person:
     resource: "@CLChillPersonBundle/Resources/config/routing.yml"
     prefix:   /person/
 
+cl_chill_appointment:
+    resource: "@CLChillAppointmentBundle/Resources/config/routing.yml"
+    prefix:   /appointment/
+
 cl_chill_main:
     resource: "@CLChillMainBundle/Resources/config/routing.yml"
     prefix:   /
-
