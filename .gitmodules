@@ -10,3 +10,6 @@
 [submodule "src/CL/Chill/AppointmentBundle"]
 	path = src/CL/Chill/AppointmentBundle
 	url = git@github.com:Champs-Libres/ChillAppointmentBundle.git
+[submodule "src/CL/CLSymfonyDoctrineSearchFunctionsBundle"]
+	path = src/CL/CLSymfonyDoctrineSearchFunctionsBundle
+	url = git@github.com:Champs-Libres/CLSymfonyDoctrineSearchFunctions.git

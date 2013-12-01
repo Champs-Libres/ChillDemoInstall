@@ -71,6 +71,9 @@ doctrine:
     orm:
         auto_generate_proxy_classes: %kernel.debug%
         auto_mapping: true
+        dql:
+            string_functions:
+                doublemetaphone: CL\CLSymfonyDoctrineSearchFunctionsBundle\DQL\DoubleMetaphoneFunction
 
 # Swiftmailer Configuration
 swiftmailer:
