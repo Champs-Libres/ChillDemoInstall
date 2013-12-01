@@ -82,3 +82,7 @@ swiftmailer:
     username:  %mailer_user%
     password:  %mailer_password%
     spool:     { type: memory }
+    
+cl_chill_person: 
+    search:
+        use_double_metaphone: %chill_demo_install.search.use_double_metaphone%

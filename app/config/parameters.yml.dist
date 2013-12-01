@@ -19,4 +19,6 @@ parameters:
     ruby.bin: /usr/local/bin/ruby
 
     installation.name: "Chill Project Demo"
+
+    chill_demo_install.search.use_double_metaphone : false
     
