@@ -71,6 +71,9 @@ doctrine:
     orm:
         auto_generate_proxy_classes: %kernel.debug%
         auto_mapping: true
+        dql:
+            string_functions:
+                doublemetaphone: CL\CLSymfonyDoctrineSearchFunctionsBundle\DQL\DoubleMetaphoneFunction
 
 # Swiftmailer Configuration
 swiftmailer:
@@ -79,3 +82,7 @@ swiftmailer:
     username:  %mailer_user%
     password:  %mailer_password%
     spool:     { type: memory }
+    
+cl_chill_person: 
+    search:
+        use_double_metaphone: %chill_demo_install.search.use_double_metaphone%

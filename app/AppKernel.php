@@ -20,6 +20,7 @@ class AppKernel extends Kernel
             new CL\Chill\PersonBundle\CLChillPersonBundle(),
             new CL\Chill\AppointmentBundle\CLChillAppointmentBundle(),
             new CL\BelgianNationalNumberBundle\CLBelgianNationalNumberBundle(),
+            new CL\CLSymfonyDoctrineSearchFunctionsBundle\CLSymfonyDoctrineSearchFunctionsBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {
