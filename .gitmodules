@@ -13,3 +13,6 @@
 [submodule "src/CL/CLSymfonyDoctrineSearchFunctionsBundle"]
 	path = src/CL/CLSymfonyDoctrineSearchFunctionsBundle
 	url = git@github.com:Champs-Libres/CLSymfonyDoctrineSearchFunctions.git
+[submodule "src/CL/Chill/UserBundle"]
+	path = src/CL/Chill/UserBundle
+	url = git@github.com:Champs-Libres/ChillUserBundle.git

@@ -21,6 +21,8 @@ class AppKernel extends Kernel
             new CL\Chill\AppointmentBundle\CLChillAppointmentBundle(),
             new CL\BelgianNationalNumberBundle\CLBelgianNationalNumberBundle(),
             new CL\CLSymfonyDoctrineSearchFunctionsBundle\CLSymfonyDoctrineSearchFunctionsBundle(),
+            new FOS\UserBundle\FOSUserBundle(),
+            new CL\Chill\UserBundle\CLChillUserBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {

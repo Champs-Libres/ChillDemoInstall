@@ -86,3 +86,7 @@ swiftmailer:
 cl_chill_person: 
     search:
         use_double_metaphone: %chill_demo_install.search.use_double_metaphone%
+        
+fos_user:
+    firewall_name: main
+    #other parameters are provided by MainBundle
