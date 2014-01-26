@@ -1,0 +1,12 @@
+parameters:
+#    cl_history.example.class: CL\HistoryBundle\Example
+
+services:
+#    cl_history.example:
+#        class: %cl_history.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]
+    cl_history.creation_listener:
+        class: CL\CLHistoryBundle\Listener\CreationListener
+        arguments: [@cl_history_mongo_driver.repository]
+        tags:
+            - { name: doctrine.event_listener, event: prePersist }

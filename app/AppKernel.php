@@ -23,6 +23,8 @@ class AppKernel extends Kernel
             new CL\CLSymfonyDoctrineSearchFunctionsBundle\CLSymfonyDoctrineSearchFunctionsBundle(),
             new FOS\UserBundle\FOSUserBundle(),
             new CL\Chill\UserBundle\CLChillUserBundle(),
+            new CL\CLHistoryBundle\CLHistoryBundle(),
+            new CL\CLHistoryMongoDriverBundle\CLHistoryMongoDriverBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {

@@ -16,3 +16,9 @@
 [submodule "src/CL/Chill/UserBundle"]
 	path = src/CL/Chill/UserBundle
 	url = git@github.com:Champs-Libres/ChillUserBundle.git
+[submodule "src/CL/CLHistoryBundle"]
+	path = src/CL/CLHistoryBundle
+	url = git@git.champs-libres.coop:CLHistoryBundle
+[submodule "src/CL/CLHistoryMongoDriverBundle"]
+	path = src/CL/CLHistoryMongoDriverBundle
+	url = git@git.champs-libres.coop:CLHistoryMongoDriverBundle
