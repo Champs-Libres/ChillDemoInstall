@@ -21,4 +21,8 @@ parameters:
     installation.name: "Chill Project Demo"
 
     chill_demo_install.search.use_double_metaphone : false
+
+    mongo_host: localhost
+    mongo_port: 27017
+    mongo_db: chill
     
