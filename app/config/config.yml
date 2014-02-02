@@ -90,3 +90,7 @@ cl_chill_person:
 fos_user:
     firewall_name: main
     #other parameters are provided by MainBundle
+    
+cl_history_mongo_driver:
+    host: %mongo_host%
+    db: %mongo_db%
